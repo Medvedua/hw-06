@@ -696,7 +696,11 @@ display: flex;
   .container {
     width: 766px;
   }
+    
   /*  ===== HEADER TABLET STYLES ===== */
+        .modal {
+          width: 408px;
+        }
   .menu-header {
     display: flex;
   }
@@ -829,6 +833,7 @@ display: flex;
           }
    
 /*  ===== /SECTION FOOTER TABLET STYLES ===== */
+
 }
 
 /*  ===== HEADER DESKTOP STYLES ===== */
@@ -939,7 +944,9 @@ grid-template-columns: repeat(3, 1fr);
 /*  ===== /SECTION PORTFOLIO DESKTOP STYLES ===== */
 
 /*  ===== SECTION FOOTER DESKTOP STYLES ===== */
-
+.container-footer {
+  flex-wrap: nowrap;
+}
  .page-footer {
   padding: 96px 0;
   }
@@ -1040,7 +1047,6 @@ grid-template-columns: repeat(3, 1fr);
 
 .review-form-description {
   margin-bottom: 16px;
-  width: 360px;
   color: #2e2f42;
   text-align: center;
   font-size: 16px;
