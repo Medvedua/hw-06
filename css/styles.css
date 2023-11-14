@@ -703,6 +703,9 @@ display: flex;
   .page-address {
     display: flex;
   }
+    .mobile-menu {
+      display: none;
+    }
   .mobile-open-btn {
     display: none;
   }
