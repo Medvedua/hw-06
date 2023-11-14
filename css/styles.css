@@ -586,8 +586,7 @@ screen and (min-device-pixel-ratio: 2)
 display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: center;
-}
+  }
 
 .footer-title {
       text-align: center;
@@ -690,9 +689,7 @@ display: flex;
   background-color: #404bbf;
 }
 
-/* .footer-svg {
-  margin-left: 16px;
-} */
+
 /*  ===== /SECTION FOOTER MOBILE STYLES ===== */
 
 @media screen and (min-width: 768px) {
@@ -815,12 +812,27 @@ display: flex;
   grid-template-columns: repeat(2, 1fr);
 }
 /*  ===== /SECTION PORTFOLIO TABLET STYLES ===== */
+
+/*  ===== SECTION FOOTER TABLET STYLES ===== */
+
+.text-footer {
+   align-items: normal;
+    }
+    .footer-title {
+      text-align: left;
+    }
+    .footer-form {
+      flex-direction: row;
+          }
+   
+/*  ===== /SECTION FOOTER TABLET STYLES ===== */
 }
 
 /*  ===== HEADER DESKTOP STYLES ===== */
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+  width: 1158px;
+    
   }
 
   .container-one {
@@ -922,6 +934,20 @@ display: flex;
 grid-template-columns: repeat(3, 1fr);
 }
 /*  ===== /SECTION PORTFOLIO DESKTOP STYLES ===== */
+
+/*  ===== SECTION FOOTER DESKTOP STYLES ===== */
+
+ .page-footer {
+  padding: 96px 0;
+  }
+.text-footer {
+  margin-right: 120px;
+}
+.footer-icon {
+  margin-right: 80px;
+} 
+
+/*  ===== /SECTION FOOTER DESKTOP STYLES ===== */
 }
 
 
